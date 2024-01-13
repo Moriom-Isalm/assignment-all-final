@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 254, 254, 0.7);
+    padding: 2px;
+    border-radius: 5px;
+    width: auto;
+  }
+  /* 1st section end */
+  .container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 254, 254, 0.7);
+    padding: 2px;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+
+  .celebration {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    transform: translate(-50%, -50%);
+    background: rgb(5, 7, 1);
+    display: block;
+  }
+  .new {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: rgb(237, 130, 130);
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+ 
+  h3 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: red;
+    background-color: rgb(249, 226, 226);
+    display: inline-flexbox;
+  }
+  h1 {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    color: red;
+    display: block;
+  }
+  .invitation-container {
+    display: flex;
+    position: absolute;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+   margin-left: 750px;
+    background-color: white;
+    position: relative;
+  }
+ 
+  .details-container{
+    margin-left: 1000px;
+    border-bottom: 1px;
+  }
+
+   .login-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1300px;
+   
+  }
+  
+  
+  .place, .date-time, .login-button {
+    margin: 10px 0;
+
+  
+  }
+  
+  .login-button button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+  }
+
+
+ 
+  
+  .container-optional {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-right: 2000px;
+
+  }
+  
+  .text-section { 
+    margin: 40px 30px;
+    display: flex;
+  }
+  .image-box {
+    position: inline;
+    width: 450px;
+    margin-right: 900px;
+  }
+  
+  .image-box {
+    height: 400px;
+    margin-right: 260px;
+    
+   
+  }
+  
+  
+  .holiday-text {
+    display: flexbox;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ef6565;
+    padding: 10px;
+  }
+  
+  .holiday:hover {
+    text-decoration: underline;
+    box-sizing: border-box;
+  }
+  .my section{
+    margin-top: 10px;
+  }
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1700px;
+  position: relative;
+}
+.problem{
+  margin-left: 100px;
+  position: absolute;
+}
+.image-container img {
+  margin: 5px;
+  margin-top: 200px;
+}
+.bottom-image img{
+  margin: 5px;
+  position: absolute;
+}
+
+.product {
+    text-align: center;
+}
+
+.image-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.pro-head {
+    color: red;
+}
+
+
+.row {
+  display: inline;
+  gap: 10px;
+}
+.column {
+  flex: 1;
+  padding: 0px;
+}
+.column img {
+  width: 50%;
+  height: auto;
+}
+
+.message box{
+ 
+  margin-left: 300px;
+}
+.subscribe {
+  border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+width: 800px;
+height: 320px;
+padding: 48px;
+margin: 0px 400px 0px 200px;
+}
+.subscribe_img {
+  height: 96px;
+  width: auto;
+}
+.subscribe_head {
+   color: black;
+}
+.email_input{
+  color: rgb(53, 48, 48);
+  font-size: 20px;
+}
+.form_subscribe{
+  display: inline-block;
+}
+.Subscribe_button{
+  border-radius: 0px 30px 30px 0px;
+  background: #F00;
+  font-size: 12px;
+  color: white;
+  flex-shrink: 0px;
+ border-color: red;
+}
